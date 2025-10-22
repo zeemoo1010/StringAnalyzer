@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "StringAnalyzer.Controllers.StringsController",
+    "Method": "AnalyzeString",
+    "RelativePath": "api/Strings",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "StringAnalyzer.Entity.StringRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StringAnalyzer.Controllers.StringsController",
+    "Method": "GetString",
+    "RelativePath": "api/Strings/{string_value}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "string_value",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StringAnalyzer.Controllers.StringsController",
+    "Method": "Delete",
+    "RelativePath": "api/Strings/{string_value}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "string_value",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StringAnalyzer.Controllers.StringsController",
+    "Method": "FilterByNaturalLanguage",
+    "RelativePath": "api/Strings/filter-by-natural-language",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StringAnalyzer.Controllers.StringsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Strings/get-all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
